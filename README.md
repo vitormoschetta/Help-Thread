@@ -22,6 +22,7 @@ Obs: Processadores multi-core podem também ter os seus núcleos funcionando em 
 <br>
 
 ## Aplicaçes multi-threads
+
 Não adianta um processador ser multi-thread se a aplicação não der suporte a isso. 
 
 Veja no link abaixo exemplos de multi-thread em C# com Thread e Task:
@@ -29,3 +30,10 @@ Veja no link abaixo exemplos de multi-thread em C# com Thread e Task:
 <https://github.com/vitormoschetta/Help-CSharp/tree/master/src/Threads>
 
 <https://github.com/vitormoschetta/Help-CSharp/tree/master/src/Tasks>
+
+
+<br>
+
+Como comentamos anteriormente, existe uma complexidade no desenvolvimento de aplicações multi-thread, principalmente quando uma thread X depende da informação de um processo ocorrendo na thread Y, por exemplo. 
+
+Se essa dependência e sincronismo no for correamente desenvolvida, podemos nos deparar com Deadlock, ou seja, quando ocorre um impasse entre dois ou mais processos, os deixando bloqueados, impedidos de prosseguir no processo, ficam aguardando um pelo outro, etc..
