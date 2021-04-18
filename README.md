@@ -18,3 +18,14 @@ Foi olhando para os contra-argumentos apontados acima, que foram desenvolvidos p
 basicamente ter duas ou mais CPUs no mesmo espaço físico. 
 
 Obs: Processadores multi-core podem também ter os seus núcleos funcionando em multi-thread. 
+
+<br>
+
+## Aplicaçes multi-threads
+Não adianta um processador ser multi-thread se a aplicação não der suporte a isso. 
+
+Veja no link abaixo exemplos de multi-thread em C# com Thread e Task:
+
+<https://github.com/vitormoschetta/Help-CSharp/tree/master/src/Threads>
+
+<https://github.com/vitormoschetta/Help-CSharp/tree/master/src/Tasks>
