@@ -37,3 +37,6 @@ Veja no link abaixo exemplos de multi-thread em C# com Thread e Task:
 Como comentamos anteriormente, existe uma complexidade no desenvolvimento de aplicações multi-thread, principalmente quando uma thread X depende da informação de um processo ocorrendo na thread Y, por exemplo. 
 
 Se essa dependência e sincronismo no for correamente desenvolvida, podemos nos deparar com Deadlock, ou seja, quando ocorre um impasse entre dois ou mais processos, os deixando bloqueados, impedidos de prosseguir no processo, ficam aguardando um pelo outro, etc..
+
+
+<https://www.devmedia.com.br/programacao-assincrona-multithreading-em-net-com-csharp/23357>
