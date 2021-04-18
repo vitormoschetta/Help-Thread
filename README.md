@@ -40,3 +40,8 @@ Se essa dependência e sincronismo no for correamente desenvolvida, podemos nos 
 
 
 <https://www.devmedia.com.br/programacao-assincrona-multithreading-em-net-com-csharp/23357>
+
+
+## Thread vs Task C#
+
+<https://peterdaugaardrasmussen.com/2018/11/08/csharp-what-is-the-difference-between-threads-and-tasks/>
